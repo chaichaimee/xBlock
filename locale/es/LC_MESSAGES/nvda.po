@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-19 09:05+0700\n"
+"PO-Revision-Date: 2025-09-19 09:09+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "xBlock"
+msgstr "xBlock"
+
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "Abre el diálogo de xBlock para gestionar y pegar bloques de texto"
+
+msgid "Text blocks:"
+msgstr "Bloques de texto:"
+
+msgid "Block name:"
+msgstr "Nombre del bloque:"
+
+msgid "Block content:"
+msgstr "Contenido del bloque:"
+
+msgid "&Add"
+msgstr "&Añadir"
+
+msgid "&Edit"
+msgstr "&Editar"
+
+msgid "&Paste"
+msgstr "&Pegar"
+
+msgid "&Remove"
+msgstr "&Eliminar"
+
+msgid "Please enter a block name"
+msgstr "Por favor, introduzca un nombre de bloque"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "A block with this name already exists"
+msgstr "Ya existe un bloque con este nombre"
+
+msgid "Failed to copy to clipboard"
+msgstr "No se pudo copiar al portapapeles"
+
+msgid "Failed to paste text. Please try manual paste (Ctrl+V)."
+msgstr "Error al pegar el texto. Por favor, intente pegar manualmente (Ctrl+V)."
+
+msgid "Are you sure you want to delete the block '{name}'?"
+msgstr "¿Está seguro de que desea eliminar el bloque '{name}'?"
+
+msgid "Confirm deletion"
+msgstr "Confirmar eliminación"
+
+msgid "Shortcut to open xBlock:"
+msgstr "Atajo para abrir xBlock:"

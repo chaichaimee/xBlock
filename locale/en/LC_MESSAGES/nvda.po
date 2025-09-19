@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-19 09:05+0700\n"
+"PO-Revision-Date: 2025-09-19 09:05+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "xBlock"
+msgstr ""
+
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr ""
+
+msgid "Text blocks:"
+msgstr ""
+
+msgid "Block name:"
+msgstr ""
+
+msgid "Block content:"
+msgstr ""
+
+msgid "&Add"
+msgstr ""
+
+msgid "&Edit"
+msgstr ""
+
+msgid "&Paste"
+msgstr ""
+
+msgid "&Remove"
+msgstr ""
+
+msgid "Please enter a block name"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "A block with this name already exists"
+msgstr ""
+
+msgid "Failed to copy to clipboard"
+msgstr ""
+
+msgid "Failed to paste text. Please try manual paste (Ctrl+V)."
+msgstr ""
+
+msgid "Are you sure you want to delete the block '{name}'?"
+msgstr ""
+
+msgid "Confirm deletion"
+msgstr ""
+
+msgid "Shortcut to open xBlock:"
+msgstr ""
