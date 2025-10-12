@@ -1,1 +1,5 @@
-Use this file to explain what has changed in your add-on since the previous release. This will be included automatically in the release description when used with GitHub actions.
+{
+  "addonId": "xBlock",
+  "version": "2025.13",
+  "changelog": "Added ui message announcement when adding a text block or editing it."
+}
