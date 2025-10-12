@@ -18,6 +18,7 @@ import inputCore
 import gui.settingsDialogs
 import core
 import winUser
+import ui
 
 addonHandler.initTranslation()
 
@@ -220,6 +221,12 @@ class XBlockDialog(wx.Dialog):
         self.blockList.Set(sorted_keys)
         self.blockList.SetStringSelection(name)
         self.selectedBlock = name
+        
+        # Announce success message
+        if self.editing:
+            ui.message(_("Edit successful"))
+        else:
+            ui.message(_("Add successful"))
         
         # Clear input fields and reset state
         self.nameCtrl.SetValue("")
