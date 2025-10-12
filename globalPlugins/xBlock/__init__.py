@@ -1,4 +1,4 @@
-# __init__.py
+# # __init__.py
 # Copyright (C) 2025 chai chaimee
 # Licensed under GNU General Public License. See COPYING.txt for details.
 
@@ -18,6 +18,7 @@ import inputCore
 import gui.settingsDialogs
 import core
 import winUser
+import ui
 
 addonHandler.initTranslation()
 
@@ -71,8 +72,8 @@ class XBlockDialog(wx.Dialog):
         listLabel = wx.StaticText(self, label=_("Text blocks:"))
         mainSizer.Add(listLabel, 0, wx.ALL, 5)
         
-        # Sort keys to display them alphabetically
-        sorted_keys = sorted(list(self.blocks.keys()))
+        # Sort keys to display them alphabetically (case-insensitive)
+        sorted_keys = sorted(list(self.blocks.keys()), key=lambda x: x.lower())
         self.blockList = wx.ListBox(self, choices=sorted_keys, style=wx.LB_SINGLE)
         self.blockList.SetFocus()
         if self.blockList.GetCount() > 0:
@@ -109,6 +110,10 @@ class XBlockDialog(wx.Dialog):
         self.removeButton = wx.Button(self, label=_("&Remove"))
         buttonSizer.Add(self.removeButton, 0, wx.ALL, 5)
         
+        self.cancelButton = wx.Button(self, label=_("&Cancel"))
+        self.cancelButton.Hide()  # Initially hidden
+        buttonSizer.Add(self.cancelButton, 0, wx.ALL, 5)
+        
         self.closeButton = wx.Button(self, id=wx.ID_CLOSE)
         buttonSizer.Add(self.closeButton, 0, wx.ALL, 5)
         
@@ -127,11 +132,23 @@ class XBlockDialog(wx.Dialog):
         self.Bind(wx.EVT_BUTTON, self.onEdit, self.editButton)
         self.Bind(wx.EVT_BUTTON, self.onPaste, self.pasteButton)
         self.Bind(wx.EVT_BUTTON, self.onRemove, self.removeButton)
+        self.Bind(wx.EVT_BUTTON, self.onCancel, self.cancelButton)
         self.Bind(wx.EVT_BUTTON, self.onClose, self.closeButton)
         self.Bind(wx.EVT_CLOSE, self.onClose)
         
         # Bind Enter key in list to paste action
         self.blockList.Bind(wx.EVT_KEY_DOWN, self.onListKeyDown)
+        
+        # Create context menu for block list
+        self.contextMenu = wx.Menu()
+        self.editMenuItem = self.contextMenu.Append(wx.ID_EDIT, _("&Edit"))
+        self.removeMenuItem = self.contextMenu.Append(wx.ID_DELETE, _("&Remove"))
+        self.contextMenu.AppendSeparator()
+        self.sortMenuItem = self.contextMenu.Append(wx.ID_ANY, _("&Sort blocks alphabetically"))
+        self.blockList.Bind(wx.EVT_CONTEXT_MENU, self.onContextMenu)
+        self.Bind(wx.EVT_MENU, self.onEdit, self.editMenuItem)
+        self.Bind(wx.EVT_MENU, self.onRemove, self.removeMenuItem)
+        self.Bind(wx.EVT_MENU, self.onSortBlocks, self.sortMenuItem)
         
         self.updateButtonStates()
 
@@ -148,8 +165,21 @@ class XBlockDialog(wx.Dialog):
         self.editButton.Enable(hasSelection)
         self.pasteButton.Enable(hasSelection)
         self.removeButton.Enable(hasSelection)
+        
+        # Show/hide cancel button based on editing state
+        self.cancelButton.Show(self.editing)
+        
         if hasSelection:
             self.pasteButton.SetDefault()
+        # Update context menu items state
+        if hasattr(self, 'editMenuItem'):
+            self.editMenuItem.Enable(hasSelection)
+        if hasattr(self, 'removeMenuItem'):
+            self.removeMenuItem.Enable(hasSelection)
+        if hasattr(self, 'sortMenuItem'):
+            self.sortMenuItem.Enable(len(self.blocks) > 1)
+            
+        self.Layout()  # Refresh layout to account for button visibility changes
 
     def onListKeyDown(self, event):
         keyCode = event.GetKeyCode()
@@ -186,11 +216,17 @@ class XBlockDialog(wx.Dialog):
         self.blocks[name] = content.splitlines()
         self.saveBlocks()
         
-        # Update list and sort alphabetically
-        sorted_keys = sorted(list(self.blocks.keys()))
+        # Update list and sort alphabetically (case-insensitive)
+        sorted_keys = sorted(list(self.blocks.keys()), key=lambda x: x.lower())
         self.blockList.Set(sorted_keys)
         self.blockList.SetStringSelection(name)
         self.selectedBlock = name
+        
+        # Announce success message
+        if self.editing:
+            ui.message(_("Edit successful"))
+        else:
+            ui.message(_("Add successful"))
         
         # Clear input fields and reset state
         self.nameCtrl.SetValue("")
@@ -210,6 +246,15 @@ class XBlockDialog(wx.Dialog):
         self.contentCtrl.SetValue(content)
         self.editing = True
         self.editingBlockName = self.selectedBlock
+        self.updateButtonStates()
+
+    def onCancel(self, event):
+        # Clear input fields and reset editing state
+        self.nameCtrl.SetValue("")
+        self.contentCtrl.SetValue("")
+        self.editing = False
+        self.editingBlockName = None
+        self.updateButtonStates()
 
     def onPaste(self, event):
         if not self.selectedBlock or self.selectedBlock not in self.blocks:
@@ -295,8 +340,8 @@ class XBlockDialog(wx.Dialog):
             del self.blocks[self.selectedBlock]
             self.saveBlocks()
             
-            # Update UI and sort alphabetically
-            sorted_keys = sorted(list(self.blocks.keys()))
+            # Update UI and sort alphabetically (case-insensitive)
+            sorted_keys = sorted(list(self.blocks.keys()), key=lambda x: x.lower())
             self.blockList.Set(sorted_keys)
             if self.blockList.GetCount() > 0:
                 self.blockList.SetSelection(0)
@@ -305,6 +350,40 @@ class XBlockDialog(wx.Dialog):
                 self.selectedBlock = None
                 
             self.updateButtonStates()
+
+    def onSortBlocks(self, event):
+        # Create a new sorted dictionary (case-insensitive)
+        sorted_blocks = {}
+        for key in sorted(self.blocks.keys(), key=lambda x: x.lower()):
+            sorted_blocks[key] = self.blocks[key]
+        
+        # Replace the blocks with sorted ones
+        self.blocks.clear()
+        self.blocks.update(sorted_blocks)
+        self.saveBlocks()
+        
+        # Update the list box
+        sorted_keys = sorted(list(self.blocks.keys()), key=lambda x: x.lower())
+        self.blockList.Set(sorted_keys)
+        
+        # Try to reselect the previously selected block if it still exists
+        if self.selectedBlock and self.selectedBlock in self.blocks:
+            self.blockList.SetStringSelection(self.selectedBlock)
+        elif self.blockList.GetCount() > 0:
+            self.blockList.SetSelection(0)
+            self.selectedBlock = self.blockList.GetString(0)
+        else:
+            self.selectedBlock = None
+            
+        self.updateButtonStates()
+        
+        # Show confirmation message
+        wx.MessageBox(_("Blocks have been sorted alphabetically"), _("Sort Complete"), wx.OK | wx.ICON_INFORMATION)
+
+    def onContextMenu(self, event):
+        # Show context menu only if an item is selected or there are blocks to sort
+        if self.blockList.GetSelection() != wx.NOT_FOUND or len(self.blocks) > 1:
+            self.blockList.PopupMenu(self.contextMenu, event.GetPosition())
 
     def onClose(self, event):
         self.Destroy()
