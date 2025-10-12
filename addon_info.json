@@ -1,10 +1,10 @@
 ﻿{
   "addon_name": "xBlock",
   "addon_description": "add-on to create, edit, and store text snippets for quick pasting into documents via a dialog. Supports Enter key for fast pasting.",
-  "addon_version": "2025.10",
+  "addon_version": "2025.11",
   "addon_author": "chaichaimee",
   "addon_url": "https://github.com/chaichaimee/xBlock",
-  "addon_download_url": "https://github.com/chaichaimee/xBlock/releases/download/v2025.10/xBlock-v2025.10.nvda-addon",
+  "addon_download_url": "https://github.com/chaichaimee/xBlock/releases/download/v2025.11/xBlock-v2025.11.nvda-addon",
   "addon_min_nvda_version": "2022.4"
 }
 
