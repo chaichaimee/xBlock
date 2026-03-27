@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock 2026.3.4\n"
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: dialog.py:67 dialog.py:219
+msgid "&Add"
+msgstr "&Ajouter"
+
+#: dialog.py:73
+msgid "&Cancel"
+msgstr "A&nnuler"
+
+#: dialog.py:70 dialog.py:133
+msgid "&Delete"
+msgstr "&Supprimer"
+
+#: dialog.py:68 dialog.py:129
+msgid "&Edit"
+msgstr "Modifier (&E)"
+
+#: dialog.py:69 dialog.py:128
+msgid "&Paste"
+msgstr "Co&ller"
+
+#: dialog.py:127 dialog.py:409
+msgid "&Save"
+msgstr "&Enregistrer"
+
+#: settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "Raccourci pour ouvrir x&Block :"
+
+#: dialog.py:373
+msgid "A block with this name already exists in this category."
+msgstr "Un bloc avec ce nom existe déjà dans cette catégorie."
+
+#: dialog.py:430
+msgid "Block deleted."
+msgstr "Bloc supprimé."
+
+#: dialog.py:314
+msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr "Impossible de supprimer une catégorie contenant des blocs. Déplacez ou supprimez d'abord tous les blocs."
+
+#: dialog.py:318 dialog.py:423
+msgid "Confirm deletion"
+msgstr "Confirmer la suppression"
+
+#: dialog.py:132
+msgid "Move &Down"
+msgstr "&Descendre"
+
+#: dialog.py:131
+msgid "Move &Up"
+msgstr "&Monter"

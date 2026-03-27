@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock 2026.3.4\n"
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: dialog.py:67 dialog.py:219
+msgid "&Add"
+msgstr "&Añadir"
+
+#: dialog.py:73
+msgid "&Cancel"
+msgstr "&Cancelar"
+
+#: dialog.py:70 dialog.py:133
+msgid "&Delete"
+msgstr "&Eliminar"
+
+#: dialog.py:68 dialog.py:129
+msgid "&Edit"
+msgstr "&Editar"
+
+#: dialog.py:69 dialog.py:128
+msgid "&Paste"
+msgstr "&Pegar"
+
+#: dialog.py:127 dialog.py:409
+msgid "&Save"
+msgstr "&Guardar"
+
+#: settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "Atajo para abrir x&Block:"
+
+#: dialog.py:373
+msgid "A block with this name already exists in this category."
+msgstr "Ya existe un bloque con este nombre en esta categoría."
+
+#: dialog.py:53
+msgid "Block Name"
+msgstr "Nombre del bloque"
+
+#: dialog.py:430
+msgid "Block deleted."
+msgstr "Bloque eliminado."
+
+#: dialog.py:314
+msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr "No se puede eliminar una categoría que contiene bloques. Mueva o elimine todos los bloques primero."
+
+#: dialog.py:36
+msgid "Categories:"
+msgstr "Categorías:"
+
+#: dialog.py:318 dialog.py:423
+msgid "Confirm deletion"
+msgstr "Confirmar eliminación"
+
+#: dialog.py:132
+msgid "Move &Down"
+msgstr "Bajar (&D)"
+
+#: dialog.py:131
+msgid "Move &Up"
+msgstr "Subir (&U)"
+
+#: __init__.py:31
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "Abre el diálogo de xBlock para gestionar y pegar bloques de texto"
