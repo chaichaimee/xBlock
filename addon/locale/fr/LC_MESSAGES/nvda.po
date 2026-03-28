@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: xBlock 2026.3.4\n"
+"Project-Id-Version: xBlock 2026.4\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,42 +17,34 @@ msgstr "A&nnuler"
 msgid "&Delete"
 msgstr "&Supprimer"
 
-#: dialog.py:68 dialog.py:129
+#: dialog.py:68 dialog.py:128
 msgid "&Edit"
 msgstr "Modifier (&E)"
 
-#: dialog.py:69 dialog.py:128
+#: dialog.py:69 dialog.py:127
 msgid "&Paste"
 msgstr "Co&ller"
 
-#: dialog.py:127 dialog.py:409
+#: dialog.py:408
 msgid "&Save"
 msgstr "&Enregistrer"
 
-#: settings.py:14
-msgid "&Shortcut to open xBlock:"
-msgstr "Raccourci pour ouvrir x&Block :"
-
-#: dialog.py:373
+#: dialog.py:372
 msgid "A block with this name already exists in this category."
 msgstr "Un bloc avec ce nom existe déjà dans cette catégorie."
 
-#: dialog.py:430
-msgid "Block deleted."
-msgstr "Bloc supprimé."
+#: dialog.py:515
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "Échec de la copie. Veuillez réessayer."
 
-#: dialog.py:314
-msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
-msgstr "Impossible de supprimer une catégorie contenant des blocs. Déplacez ou supprimez d'abord tous les blocs."
-
-#: dialog.py:318 dialog.py:423
-msgid "Confirm deletion"
-msgstr "Confirmer la suppression"
-
-#: dialog.py:132
+#: dialog.py:131
 msgid "Move &Down"
 msgstr "&Descendre"
 
-#: dialog.py:131
+#: dialog.py:130
 msgid "Move &Up"
 msgstr "&Monter"
+
+#: dialog.py:71 dialog.py:132
+msgid "Move to Category"
+msgstr "Déplacer vers la catégorie"

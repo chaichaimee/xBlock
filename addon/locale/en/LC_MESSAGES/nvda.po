@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: xBlock 2026.3.4\n"
+"Project-Id-Version: xBlock 2026.4\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-03-27 09:02+0700\n"
+"POT-Creation-Date: 2026-03-28 09:53+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: English\n"
@@ -27,7 +27,7 @@ msgid "&Delete"
 msgstr "&Delete"
 
 #: dialog.py:68
-#: dialog.py:129
+#: dialog.py:128
 msgid "&Edit"
 msgstr "&Edit"
 
@@ -40,11 +40,11 @@ msgid "&New Category"
 msgstr "&New Category"
 
 #: dialog.py:69
-#: dialog.py:128
+#: dialog.py:127
 msgid "&Paste"
 msgstr "&Paste"
 
-#: dialog.py:130
+#: dialog.py:129
 msgid "&Pin/Unpin"
 msgstr "&Pin/Unpin"
 
@@ -52,8 +52,7 @@ msgstr "&Pin/Unpin"
 msgid "&Remove Category"
 msgstr "&Remove Category"
 
-#: dialog.py:127
-#: dialog.py:409
+#: dialog.py:408
 msgid "&Save"
 msgstr "&Save"
 
@@ -61,7 +60,7 @@ msgstr "&Save"
 msgid "&Shortcut to open xBlock:"
 msgstr "&Shortcut to open xBlock:"
 
-#: dialog.py:373
+#: dialog.py:372
 msgid "A block with this name already exists in this category."
 msgstr "A block with this name already exists in this category."
 
@@ -73,11 +72,11 @@ msgstr "Block Name"
 msgid "Block content:"
 msgstr "Block content:"
 
-#: dialog.py:430
+#: dialog.py:429
 msgid "Block deleted."
 msgstr "Block deleted."
 
-#: dialog.py:457
+#: dialog.py:456
 msgid "Block moved to {0}."
 msgstr "Block moved to {0}."
 
@@ -85,7 +84,7 @@ msgstr "Block moved to {0}."
 msgid "Block name:"
 msgstr "Block name:"
 
-#: dialog.py:314
+#: dialog.py:313
 msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
 msgstr "Cannot remove category that contains blocks. Move or delete all blocks first."
 
@@ -93,70 +92,71 @@ msgstr "Cannot remove category that contains blocks. Move or delete all blocks f
 msgid "Categories:"
 msgstr "Categories:"
 
-#: dialog.py:280
-#: dialog.py:300
+#: dialog.py:279
+#: dialog.py:299
 msgid "Category already exists."
 msgstr "Category already exists."
 
-#: dialog.py:278
-#: dialog.py:296
+#: dialog.py:277
+#: dialog.py:295
 msgid "Category name cannot be empty."
 msgstr "Category name cannot be empty."
 
-#: dialog.py:318
-#: dialog.py:423
+#: dialog.py:317
+#: dialog.py:422
 msgid "Confirm deletion"
 msgstr "Confirm deletion"
 
-#: dialog.py:292
+#: dialog.py:291
 msgid "Edit Category"
 msgstr "Edit Category"
 
-#: dialog.py:274
+#: dialog.py:273
 msgid "Enter category name:"
 msgstr "Enter category name:"
 
-#: dialog.py:278
-#: dialog.py:280
-#: dialog.py:296
-#: dialog.py:300
-#: dialog.py:315
-#: dialog.py:368
-#: dialog.py:374
-#: dialog.py:515
-#: dialog.py:529
+#: dialog.py:277
+#: dialog.py:279
+#: dialog.py:295
+#: dialog.py:299
+#: dialog.py:314
+#: dialog.py:367
+#: dialog.py:373
+#: dialog.py:516
+#: dialog.py:540
 msgid "Error"
 msgstr "Error"
 
 #: dialog.py:515
-msgid "Failed to copy to clipboard."
-msgstr "Failed to copy to clipboard."
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "Failed to copy to clipboard. Please try again."
 
-#: dialog.py:529
+#: dialog.py:539
 msgid "Failed to paste. Please use Ctrl+V manually."
 msgstr "Failed to paste. Please use Ctrl+V manually."
 
-#: dialog.py:132
+#: dialog.py:131
 msgid "Move &Down"
 msgstr "Move &Down"
 
-#: dialog.py:131
+#: dialog.py:130
 msgid "Move &Up"
 msgstr "Move &Up"
 
-#: dialog.py:440
+#: dialog.py:439
 msgid "Move Block"
 msgstr "Move Block"
 
 #: dialog.py:71
+#: dialog.py:132
 msgid "Move to Category"
 msgstr "Move to Category"
 
-#: dialog.py:497
+#: dialog.py:496
 msgid "Moved down"
 msgstr "Moved down"
 
-#: dialog.py:481
+#: dialog.py:480
 msgid "Moved up"
 msgstr "Moved up"
 
@@ -164,11 +164,11 @@ msgstr "Moved up"
 msgid "New &Category"
 msgstr "New &Category"
 
-#: dialog.py:274
+#: dialog.py:273
 msgid "New Category"
 msgstr "New Category"
 
-#: dialog.py:292
+#: dialog.py:291
 msgid "New name for category:"
 msgstr "New name for category:"
 
@@ -176,23 +176,23 @@ msgstr "New name for category:"
 msgid "Opens xBlock dialog to manage and paste text blocks"
 msgstr "Opens xBlock dialog to manage and paste text blocks"
 
-#: dialog.py:537
+#: dialog.py:547
 msgid "Pin"
 msgstr "Pin"
 
-#: dialog.py:467
+#: dialog.py:466
 msgid "Pinned"
 msgstr "Pinned"
 
-#: dialog.py:368
+#: dialog.py:367
 msgid "Please enter a block name."
 msgstr "Please enter a block name."
 
-#: dialog.py:439
+#: dialog.py:438
 msgid "Select destination category:"
 msgstr "Select destination category:"
 
-#: dialog.py:395
+#: dialog.py:394
 msgid "Success"
 msgstr "Success"
 
@@ -200,11 +200,11 @@ msgstr "Success"
 msgid "Text blocks:"
 msgstr "Text blocks:"
 
-#: dialog.py:537
+#: dialog.py:547
 msgid "Unpin"
 msgstr "Unpin"
 
-#: dialog.py:467
+#: dialog.py:466
 msgid "Unpinned"
 msgstr "Unpinned"
 

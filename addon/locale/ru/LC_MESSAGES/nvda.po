@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: xBlock 2026.3.4\n"
+"Project-Id-Version: xBlock 2026.4\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,46 +17,34 @@ msgstr "От&мена"
 msgid "&Delete"
 msgstr "&Удалить"
 
-#: dialog.py:68 dialog.py:129
+#: dialog.py:68 dialog.py:128
 msgid "&Edit"
 msgstr "&Изменить"
 
-#: dialog.py:69 dialog.py:128
+#: dialog.py:69 dialog.py:127
 msgid "&Paste"
 msgstr "Вс&тавить"
 
-#: dialog.py:127 dialog.py:409
+#: dialog.py:408
 msgid "&Save"
 msgstr "&Сохранить"
 
-#: settings.py:14
-msgid "&Shortcut to open xBlock:"
-msgstr "&Горячая клавиша для xBlock:"
-
-#: dialog.py:373
-msgid "A block with this name already exists in this category."
-msgstr "Блок с таким именем уже существует в этой категории."
-
-#: dialog.py:53
-msgid "Block Name"
-msgstr "Имя блока"
-
-#: dialog.py:430
-msgid "Block deleted."
-msgstr "Блок удален."
-
-#: dialog.py:314
-msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
-msgstr "Нельзя удалить категорию, содержащую блоки. Сначала переместите или удалите все блоки."
-
-#: dialog.py:318 dialog.py:423
-msgid "Confirm deletion"
-msgstr "Подтверждение удаления"
-
-#: dialog.py:132
-msgid "Move &Down"
-msgstr "Переместить &вниз"
+#: dialog.py:515
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "Не удалось скопировать. Попробуйте еще раз."
 
 #: dialog.py:131
+msgid "Move &Down"
+msgstr "В&низ"
+
+#: dialog.py:130
 msgid "Move &Up"
-msgstr "Переместить в&верх"
+msgstr "В&верх"
+
+#: dialog.py:71 dialog.py:132
+msgid "Move to Category"
+msgstr "Переместить в категорию"
+
+#: dialog.py:547
+msgid "Pin"
+msgstr "Закрепить"

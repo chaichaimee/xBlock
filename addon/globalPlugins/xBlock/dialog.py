@@ -124,19 +124,19 @@ class XBlockDialog(wx.Dialog):
 
 		# Block context menu
 		self.blockContextMenu = wx.Menu()
-		self.blockSaveItem = self.blockContextMenu.Append(wx.ID_SAVE, _("&Save"))
 		self.blockPasteItem = self.blockContextMenu.Append(wx.ID_PASTE, _("&Paste"))
 		self.blockEditItem = self.blockContextMenu.Append(wx.ID_EDIT, _("&Edit"))
 		self.blockPinItem = self.blockContextMenu.Append(wx.ID_ANY, _("&Pin/Unpin"))
 		self.blockMoveUpItem = self.blockContextMenu.Append(wx.ID_ANY, _("Move &Up"))
 		self.blockMoveDownItem = self.blockContextMenu.Append(wx.ID_ANY, _("Move &Down"))
+		self.blockMoveCatItem = self.blockContextMenu.Append(wx.ID_ANY, _("Move to Category"))
 		self.blockDeleteItem = self.blockContextMenu.Append(wx.ID_DELETE, _("&Delete"))
-		self.Bind(wx.EVT_MENU, self._on_add_block, self.blockSaveItem)
 		self.Bind(wx.EVT_MENU, self._on_paste, self.blockPasteItem)
 		self.Bind(wx.EVT_MENU, self._on_edit_block, self.blockEditItem)
 		self.Bind(wx.EVT_MENU, self._on_toggle_pin, self.blockPinItem)
 		self.Bind(wx.EVT_MENU, self._on_move_up, self.blockMoveUpItem)
 		self.Bind(wx.EVT_MENU, self._on_move_down, self.blockMoveDownItem)
+		self.Bind(wx.EVT_MENU, self._on_move_block, self.blockMoveCatItem)
 		self.Bind(wx.EVT_MENU, self._on_remove_block, self.blockDeleteItem)
 
 	def _refresh_category_list(self):
@@ -266,7 +266,6 @@ class XBlockDialog(wx.Dialog):
 		else:
 			self.catEditItem.Enable(False)
 			self.catRemoveItem.Enable(False)
-		# New Category always enabled
 		self.catNewItem.Enable(True)
 		self.categoryList.PopupMenu(self.catContextMenu, event.GetPosition())
 
@@ -498,36 +497,47 @@ class XBlockDialog(wx.Dialog):
 				return
 		wx.Bell()
 
+	# Modified paste methods for stability
 	def _on_paste(self, event):
 		block_name, block_data = self._get_selected_block_data()
 		if not block_name or not block_data:
 			return
-		self.Hide()
+
 		content = "\r\n".join(block_data.get("content", []))
 		if len(block_data.get("content", [])) >= 2:
 			content += "\r\n"
 
 		try:
 			api.copyToClip(content)
-			core.callLater(100, self._do_paste)
 		except Exception as e:
 			log.error(f"Clipboard copy failed: {e}")
-			wx.MessageBox(_("Failed to copy to clipboard."), _("Error"), wx.OK | wx.ICON_ERROR)
-			self.Destroy()
+			wx.CallAfter(wx.MessageBox,
+				_("Failed to copy to clipboard. Please try again."),
+				_("Error"), wx.OK | wx.ICON_ERROR)
+			return
+
+		self.Hide()
+		core.callLater(100, self._do_paste)
 
 	def _do_paste(self):
-		focus = api.getFocusObject()
 		try:
-			if hasattr(focus, "windowClassName") and focus.windowClassName == "ConsoleWindowClass":
-				watchdog.cancellableSendMessage(focus.windowHandle, 0x0111, 0xfff1, 0)
-			elif hasattr(focus, "windowClassName") and "Rich" in focus.windowClassName and "Text" in focus.windowClassName:
-				watchdog.cancellableSendMessage(focus.windowHandle, 0x0302, 0, 0)
-			else:
-				KeyboardInputGesture.fromName("control+v").send()
+			focus = api.getFocusObject()
+			if not focus or not focus.windowHandle:
+				log.error("Paste failed: No valid focus or window handle")
+				self._show_paste_error()
+				return
+
+			KeyboardInputGesture.fromName("control+v").send()
 		except Exception as e:
 			log.error(f"Paste failed: {e}")
-			wx.MessageBox(_("Failed to paste. Please use Ctrl+V manually."), _("Error"), wx.OK | wx.ICON_ERROR)
+			self._show_paste_error()
+
 		core.callLater(50, self.Destroy)
+
+	def _show_paste_error(self):
+		wx.CallAfter(wx.MessageBox,
+			_("Failed to paste. Please use Ctrl+V manually."),
+			_("Error"), wx.OK | wx.ICON_ERROR)
 
 	def _on_block_context_menu(self, event):
 		if self.blockList.GetFirstSelected() != -1:
@@ -535,10 +545,10 @@ class XBlockDialog(wx.Dialog):
 			if block_data:
 				is_pinned = block_data.get("pinned", False)
 				self.blockPinItem.SetItemLabel(_("Unpin") if is_pinned else _("Pin"))
-				self.blockSaveItem.Enable(self.editing)
 				self.blockEditItem.Enable(not self.editing)
 				self.blockMoveUpItem.Enable(not self.editing)
 				self.blockMoveDownItem.Enable(not self.editing)
+				self.blockMoveCatItem.Enable(not self.editing and len(self.config["Categories"]) > 1)
 			self.blockList.PopupMenu(self.blockContextMenu, event.GetPosition())
 		else:
 			event.Skip()
