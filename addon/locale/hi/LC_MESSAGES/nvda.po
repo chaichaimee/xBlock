@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock 2026.4.4\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-04-16 17:15+0700\n"
+"PO-Revision-Date: 2026-04-16 17:45+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Hindi\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: dialog.py:70
+#: dialog.py:222
+msgid "&Add"
+msgstr "जोड़ें (&A)"
+
+#: dialog.py:76
+msgid "&Cancel"
+msgstr "रद्द करें (&C)"
+
+#: dialog.py:73
+#: dialog.py:136
+msgid "&Delete"
+msgstr "हटाएं (&D)"
+
+#: dialog.py:71
+#: dialog.py:131
+msgid "&Edit"
+msgstr "संपादित करें (&E)"
+
+#: dialog.py:122
+msgid "&Edit Category"
+msgstr "श्रेणी संपादित करें (&E)"
+
+#: dialog.py:121
+msgid "&New Category"
+msgstr "नई श्रेणी (&N)"
+
+#: dialog.py:72
+#: dialog.py:130
+msgid "&Paste"
+msgstr "चिपकाएं (&P)"
+
+#: dialog.py:132
+msgid "&Pin/Unpin"
+msgstr "पिन/अनपिन (&P)"
+
+#: dialog.py:123
+msgid "&Remove Category"
+msgstr "श्रेणी निकालें (&R)"
+
+#: dialog.py:411
+msgid "&Save"
+msgstr "सहेजें (&S)"
+
+#: settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "xBlock खोलने का शॉर्टकट (&S):"
+
+#: dialog.py:375
+msgid "A block with this name already exists in this category."
+msgstr "इस नाम का ब्लॉक इस श्रेणी में पहले से मौजूद है।"
+
+#: dialog.py:56
+msgid "Block Name"
+msgstr "ब्लॉक का नाम"
+
+#: dialog.py:64
+msgid "Block content:"
+msgstr "ब्लॉक की सामग्री:"
+
+#: dialog.py:432
+msgid "Block deleted."
+msgstr "ब्लॉक हटा दिया गया।"
+
+#: dialog.py:459
+msgid "Block moved to {0}."
+msgstr "ब्लॉक को {0} पर ले जाया गया।"
+
+#: dialog.py:59
+msgid "Block name:"
+msgstr "ब्लॉक का नाम:"
+
+#: dialog.py:316
+msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr "उस श्रेणी को नहीं हटाया जा सकता जिसमें ब्लॉक हैं। पहले सभी ब्लॉकों को स्थानांतरित करें या हटाएं।"
+
+#: dialog.py:39
+msgid "Categories:"
+msgstr "श्रेणियाँ:"
+
+#: dialog.py:282
+#: dialog.py:302
+msgid "Category already exists."
+msgstr "श्रेणी पहले से मौजूद है।"
+
+#: dialog.py:280
+#: dialog.py:298
+msgid "Category name cannot be empty."
+msgstr "श्रेणी का नाम खाली नहीं हो सकता।"
+
+#: dialog.py:320
+#: dialog.py:425
+msgid "Confirm deletion"
+msgstr "हटाने की पुष्टि करें"
+
+#: dialog.py:294
+msgid "Edit Category"
+msgstr "श्रेणी संपादित करें"
+
+#: dialog.py:276
+msgid "Enter category name:"
+msgstr "श्रेणी का नाम दर्ज करें:"
+
+#: dialog.py:280
+#: dialog.py:282
+#: dialog.py:298
+#: dialog.py:302
+#: dialog.py:317
+#: dialog.py:370
+#: dialog.py:376
+#: dialog.py:518
+#: dialog.py:557
+msgid "Error"
+msgstr "त्रुटि"
+
+#: dialog.py:517
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "क्लिपबोर्ड पर कॉपी करने में विफल। कृपया पुन: प्रयास करें।"
+
+#: dialog.py:556
+msgid "Failed to paste. Please use Ctrl+V manually."
+msgstr "चिपकाने में विफल। कृपया मैन्युअल रूप से Ctrl+V का उपयोग करें।"
+
+#: dialog.py:134
+msgid "Move &Down"
+msgstr "नीचे ले जाएं (&D)"
+
+#: dialog.py:133
+msgid "Move &Up"
+msgstr "ऊपर ले जाएं (&U)"
+
+#: dialog.py:442
+msgid "Move Block"
+msgstr "ब्लॉक स्थानांतरित करें"
+
+#: dialog.py:74
+#: dialog.py:135
+msgid "Move to Category"
+msgstr "श्रेणी में ले जाएं"
+
+#: dialog.py:499
+msgid "Moved down"
+msgstr "नीचे ले जाया गया"
+
+#: dialog.py:483
+msgid "Moved up"
+msgstr "ऊपर ले जाया गया"
+
+#: dialog.py:75
+msgid "New &Category"
+msgstr "नई श्रेणी (&C)"
+
+#: dialog.py:276
+msgid "New Category"
+msgstr "नई श्रेणी"
+
+#: dialog.py:294
+msgid "New name for category:"
+msgstr "श्रेणी के लिए नया नाम:"
+
+#: __init__.py:31
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "टेक्स्ट ब्लॉक प्रबंधित करने और चिपकाने के लिए xBlock संवाद खोलता है"
+
+#: dialog.py:564
+msgid "Pin"
+msgstr "पिन करें"
+
+#: dialog.py:469
+msgid "Pinned"
+msgstr "पिन किया गया"
+
+#: dialog.py:370
+msgid "Please enter a block name."
+msgstr "कृपया ब्लॉक का नाम दर्ज करें।"
+
+#: dialog.py:441
+msgid "Select destination category:"
+msgstr "गंतव्य श्रेणी चुनें:"
+
+#: dialog.py:397
+msgid "Success"
+msgstr "सफलता"
+
+#: dialog.py:52
+msgid "Text blocks:"
+msgstr "टेक्स्ट ब्लॉक:"
+
+#: dialog.py:564
+msgid "Unpin"
+msgstr "अनपिन करें"
+
+#: dialog.py:469
+msgid "Unpinned"
+msgstr "अनपिन किया गया"
+
+#: __init__.py:18
+#: __init__.py:32
+#: dialog.py:17
+#: settings.py:9
+msgid "xBlock"
+msgstr "xBlock"

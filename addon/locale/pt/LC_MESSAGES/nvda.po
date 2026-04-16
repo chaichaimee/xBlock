@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock 2026.4.4\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-04-16 17:15+0700\n"
+"PO-Revision-Date: 2026-04-16 18:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Portuguese\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: dialog.py:70
+#: dialog.py:222
+msgid "&Add"
+msgstr "&Adicionar"
+
+#: dialog.py:76
+msgid "&Cancel"
+msgstr "&Cancelar"
+
+#: dialog.py:73
+#: dialog.py:136
+msgid "&Delete"
+msgstr "&Eliminar"
+
+#: dialog.py:71
+#: dialog.py:131
+msgid "&Edit"
+msgstr "&Editar"
+
+#: dialog.py:122
+msgid "&Edit Category"
+msgstr "&Editar Categoria"
+
+#: dialog.py:121
+msgid "&New Category"
+msgstr "&Nova Categoria"
+
+#: dialog.py:72
+#: dialog.py:130
+msgid "&Paste"
+msgstr "Co&lar"
+
+#: dialog.py:132
+msgid "&Pin/Unpin"
+msgstr "&Fixar/Desafixar"
+
+#: dialog.py:123
+msgid "&Remove Category"
+msgstr "&Remover Categoria"
+
+#: dialog.py:411
+msgid "&Save"
+msgstr "&Guardar"
+
+#: settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "Atal&ho para abrir o xBlock:"
+
+#: dialog.py:375
+msgid "A block with this name already exists in this category."
+msgstr "Já existe um bloco com este nome nesta categoria."
+
+#: dialog.py:56
+msgid "Block Name"
+msgstr "Nome do Bloco"
+
+#: dialog.py:64
+msgid "Block content:"
+msgstr "Conteúdo do bloco:"
+
+#: dialog.py:432
+msgid "Block deleted."
+msgstr "Bloco eliminado."
+
+#: dialog.py:459
+msgid "Block moved to {0}."
+msgstr "Bloco movido para {0}."
+
+#: dialog.py:59
+msgid "Block name:"
+msgstr "Nome do bloco:"
+
+#: dialog.py:316
+msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr "Não é possível remover uma categoria que contém blocos. Mova ou elimine todos os blocos primeiro."
+
+#: dialog.py:39
+msgid "Categories:"
+msgstr "Categorias:"
+
+#: dialog.py:282
+#: dialog.py:302
+msgid "Category already exists."
+msgstr "A categoria já existe."
+
+#: dialog.py:280
+#: dialog.py:298
+msgid "Category name cannot be empty."
+msgstr "O nome da categoria não pode estar vazio."
+
+#: dialog.py:320
+#: dialog.py:425
+msgid "Confirm deletion"
+msgstr "Confirmar eliminação"
+
+#: dialog.py:294
+msgid "Edit Category"
+msgstr "Editar Categoria"
+
+#: dialog.py:276
+msgid "Enter category name:"
+msgstr "Introduza o nome da categoria:"
+
+#: dialog.py:280
+#: dialog.py:282
+#: dialog.py:298
+#: dialog.py:302
+#: dialog.py:317
+#: dialog.py:370
+#: dialog.py:376
+#: dialog.py:518
+#: dialog.py:557
+msgid "Error"
+msgstr "Erro"
+
+#: dialog.py:517
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "Falha ao copiar para a área de transferência. Tente novamente."
+
+#: dialog.py:556
+msgid "Failed to paste. Please use Ctrl+V manually."
+msgstr "Falha ao colar. Por favor, use Ctrl+V manualmente."
+
+#: dialog.py:134
+msgid "Move &Down"
+msgstr "Mover para &Baixo"
+
+#: dialog.py:133
+msgid "Move &Up"
+msgstr "Mover para &Cima"
+
+#: dialog.py:442
+msgid "Move Block"
+msgstr "Mover Bloco"
+
+#: dialog.py:74
+#: dialog.py:135
+msgid "Move to Category"
+msgstr "Mover para a Categoria"
+
+#: dialog.py:499
+msgid "Moved down"
+msgstr "Movido para baixo"
+
+#: dialog.py:483
+msgid "Moved up"
+msgstr "Movido para cima"
+
+#: dialog.py:75
+msgid "New &Category"
+msgstr "Nova &Categoria"
+
+#: dialog.py:276
+msgid "New Category"
+msgstr "Nova Categoria"
+
+#: dialog.py:294
+msgid "New name for category:"
+msgstr "Novo nome para a categoria:"
+
+#: __init__.py:31
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "Abre o diálogo xBlock para gerir e colar blocos de texto"
+
+#: dialog.py:564
+msgid "Pin"
+msgstr "Fixar"
+
+#: dialog.py:469
+msgid "Pinned"
+msgstr "Fixado"
+
+#: dialog.py:370
+msgid "Please enter a block name."
+msgstr "Por favor, introduza um nome para o bloco."
+
+#: dialog.py:441
+msgid "Select destination category:"
+msgstr "Selecione a categoria de destino:"
+
+#: dialog.py:397
+msgid "Success"
+msgstr "Sucesso"
+
+#: dialog.py:52
+msgid "Text blocks:"
+msgstr "Blocos de texto:"
+
+#: dialog.py:564
+msgid "Unpin"
+msgstr "Desafixar"
+
+#: dialog.py:469
+msgid "Unpinned"
+msgstr "Desafixado"
+
+#: __init__.py:18
+#: __init__.py:32
+#: dialog.py:17
+#: settings.py:9
+msgid "xBlock"
+msgstr "xBlock"

@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock 2026.4.4\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-04-16 17:15+0700\n"
+"PO-Revision-Date: 2026-04-16 17:45+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: dialog.py:70
+#: dialog.py:222
+msgid "&Add"
+msgstr "Hozzá&adás"
+
+#: dialog.py:76
+msgid "&Cancel"
+msgstr "&Mégse"
+
+#: dialog.py:73
+#: dialog.py:136
+msgid "&Delete"
+msgstr "&Törlés"
+
+#: dialog.py:71
+#: dialog.py:131
+msgid "&Edit"
+msgstr "S&zerkesztés"
+
+#: dialog.py:122
+msgid "&Edit Category"
+msgstr "Kategória s&zerkesztése"
+
+#: dialog.py:121
+msgid "&New Category"
+msgstr "Új kategória (&N)"
+
+#: dialog.py:72
+#: dialog.py:130
+msgid "&Paste"
+msgstr "&Beillesztés"
+
+#: dialog.py:132
+msgid "&Pin/Unpin"
+msgstr "&Rögzítés/Feloldás"
+
+#: dialog.py:123
+msgid "&Remove Category"
+msgstr "Kategória el&távolítása"
+
+#: dialog.py:411
+msgid "&Save"
+msgstr "Menté&s"
+
+#: settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "Billentyűparanc&s az xBlock megnyitásához:"
+
+#: dialog.py:375
+msgid "A block with this name already exists in this category."
+msgstr "Már létezik ilyen nevű blokk ebben a kategóriában."
+
+#: dialog.py:56
+msgid "Block Name"
+msgstr "Blokk neve"
+
+#: dialog.py:64
+msgid "Block content:"
+msgstr "Blokk tartalma:"
+
+#: dialog.py:432
+msgid "Block deleted."
+msgstr "Blokk törölve."
+
+#: dialog.py:459
+msgid "Block moved to {0}."
+msgstr "Blokk áthelyezve ide: {0}."
+
+#: dialog.py:59
+msgid "Block name:"
+msgstr "Blokk neve:"
+
+#: dialog.py:316
+msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr "Nem távolítható el blokkokat tartalmazó kategória. Előbb helyezze át vagy törölje az összes blokkot."
+
+#: dialog.py:39
+msgid "Categories:"
+msgstr "Kategóriák:"
+
+#: dialog.py:282
+#: dialog.py:302
+msgid "Category already exists."
+msgstr "A kategória már létezik."
+
+#: dialog.py:280
+#: dialog.py:298
+msgid "Category name cannot be empty."
+msgstr "A kategória neve nem lehet üres."
+
+#: dialog.py:320
+#: dialog.py:425
+msgid "Confirm deletion"
+msgstr "Törlés megerősítése"
+
+#: dialog.py:294
+msgid "Edit Category"
+msgstr "Kategória szerkesztése"
+
+#: dialog.py:276
+msgid "Enter category name:"
+msgstr "Adja meg a kategória nevét:"
+
+#: dialog.py:280
+#: dialog.py:282
+#: dialog.py:298
+#: dialog.py:302
+#: dialog.py:317
+#: dialog.py:370
+#: dialog.py:376
+#: dialog.py:518
+#: dialog.py:557
+msgid "Error"
+msgstr "Hiba"
+
+#: dialog.py:517
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "Nem sikerült a vágólapra másolni. Kérjük, próbálja újra."
+
+#: dialog.py:556
+msgid "Failed to paste. Please use Ctrl+V manually."
+msgstr "Beillesztés sikertelen. Használja manuálisan a Ctrl+V-t."
+
+#: dialog.py:134
+msgid "Move &Down"
+msgstr "Mozgatás le&felé"
+
+#: dialog.py:133
+msgid "Move &Up"
+msgstr "Mozgatás &felfelé"
+
+#: dialog.py:442
+msgid "Move Block"
+msgstr "Blokk áthelyezése"
+
+#: dialog.py:74
+#: dialog.py:135
+msgid "Move to Category"
+msgstr "Áthelyezés kategóriába"
+
+#: dialog.py:499
+msgid "Moved down"
+msgstr "Lefelé mozgatva"
+
+#: dialog.py:483
+msgid "Moved up"
+msgstr "Felfelé mozgatva"
+
+#: dialog.py:75
+msgid "New &Category"
+msgstr "Új &kategória"
+
+#: dialog.py:276
+msgid "New Category"
+msgstr "Új kategória"
+
+#: dialog.py:294
+msgid "New name for category:"
+msgstr "Kategória új neve:"
+
+#: __init__.py:31
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "Megnyitja az xBlock ablakot a szövegblokkok kezeléséhez és beillesztéséhez"
+
+#: dialog.py:564
+msgid "Pin"
+msgstr "Rögzítés"
+
+#: dialog.py:469
+msgid "Pinned"
+msgstr "Rögzítve"
+
+#: dialog.py:370
+msgid "Please enter a block name."
+msgstr "Kérjük, adjon meg egy blokknevet."
+
+#: dialog.py:441
+msgid "Select destination category:"
+msgstr "Válassza ki a célkategóriát:"
+
+#: dialog.py:397
+msgid "Success"
+msgstr "Siker"
+
+#: dialog.py:52
+msgid "Text blocks:"
+msgstr "Szövegblokkok:"
+
+#: dialog.py:564
+msgid "Unpin"
+msgstr "Feloldás"
+
+#: dialog.py:469
+msgid "Unpinned"
+msgstr "Rögzítés feloldva"
+
+#: __init__.py:18
+#: __init__.py:32
+#: dialog.py:17
+#: settings.py:9
+msgid "xBlock"
+msgstr "xBlock"

@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock 2026.4.4\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-04-16 17:15+0700\n"
+"PO-Revision-Date: 2026-04-16 18:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Malay\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: dialog.py:70
+#: dialog.py:222
+msgid "&Add"
+msgstr "T&ambah"
+
+#: dialog.py:76
+msgid "&Cancel"
+msgstr "&Batal"
+
+#: dialog.py:73
+#: dialog.py:136
+msgid "&Delete"
+msgstr "&Padam"
+
+#: dialog.py:71
+#: dialog.py:131
+msgid "&Edit"
+msgstr "&Edit"
+
+#: dialog.py:122
+msgid "&Edit Category"
+msgstr "&Edit Kategori"
+
+#: dialog.py:121
+msgid "&New Category"
+msgstr "Kategori &Baru"
+
+#: dialog.py:72
+#: dialog.py:130
+msgid "&Paste"
+msgstr "T&ampal"
+
+#: dialog.py:132
+msgid "&Pin/Unpin"
+msgstr "&Semat/Cabut"
+
+#: dialog.py:123
+msgid "&Remove Category"
+msgstr "&Buang Kategori"
+
+#: dialog.py:411
+msgid "&Save"
+msgstr "&Simpan"
+
+#: settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "&Pintasan untuk membuka xBlock:"
+
+#: dialog.py:375
+msgid "A block with this name already exists in this category."
+msgstr "Blok dengan nama ini sudah wujud dalam kategori ini."
+
+#: dialog.py:56
+msgid "Block Name"
+msgstr "Nama Blok"
+
+#: dialog.py:64
+msgid "Block content:"
+msgstr "Kandungan blok:"
+
+#: dialog.py:432
+msgid "Block deleted."
+msgstr "Blok dipadam."
+
+#: dialog.py:459
+msgid "Block moved to {0}."
+msgstr "Blok dipindahkan ke {0}."
+
+#: dialog.py:59
+msgid "Block name:"
+msgstr "Nama blok:"
+
+#: dialog.py:316
+msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr "Tidak boleh membuang kategori yang mengandungi blok. Pindahkan atau padam semua blok terlebih dahulu."
+
+#: dialog.py:39
+msgid "Categories:"
+msgstr "Kategori:"
+
+#: dialog.py:282
+#: dialog.py:302
+msgid "Category already exists."
+msgstr "Kategori sudah wujud."
+
+#: dialog.py:280
+#: dialog.py:298
+msgid "Category name cannot be empty."
+msgstr "Nama kategori tidak boleh kosong."
+
+#: dialog.py:320
+#: dialog.py:425
+msgid "Confirm deletion"
+msgstr "Sahkan pemadaman"
+
+#: dialog.py:294
+msgid "Edit Category"
+msgstr "Edit Kategori"
+
+#: dialog.py:276
+msgid "Enter category name:"
+msgstr "Masukkan nama kategori:"
+
+#: dialog.py:280
+#: dialog.py:282
+#: dialog.py:298
+#: dialog.py:302
+#: dialog.py:317
+#: dialog.py:370
+#: dialog.py:376
+#: dialog.py:518
+#: dialog.py:557
+msgid "Error"
+msgstr "Ralat"
+
+#: dialog.py:517
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "Gagal menyalin ke papan keratan. Sila cuba lagi."
+
+#: dialog.py:556
+msgid "Failed to paste. Please use Ctrl+V manually."
+msgstr "Gagal menampal. Sila gunakan Ctrl+V secara manual."
+
+#: dialog.py:134
+msgid "Move &Down"
+msgstr "Pindah ke &Bawah"
+
+#: dialog.py:133
+msgid "Move &Up"
+msgstr "Pindah ke &Atas"
+
+#: dialog.py:442
+msgid "Move Block"
+msgstr "Pindah Blok"
+
+#: dialog.py:74
+#: dialog.py:135
+msgid "Move to Category"
+msgstr "Pindah ke Kategori"
+
+#: dialog.py:499
+msgid "Moved down"
+msgstr "Dipindahkan ke bawah"
+
+#: dialog.py:483
+msgid "Moved up"
+msgstr "Dipindahkan ke atas"
+
+#: dialog.py:75
+msgid "New &Category"
+msgstr "&Kategori Baru"
+
+#: dialog.py:276
+msgid "New Category"
+msgstr "Kategori Baru"
+
+#: dialog.py:294
+msgid "New name for category:"
+msgstr "Nama baru untuk kategori:"
+
+#: __init__.py:31
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "Membuka dialog xBlock untuk mengurus dan menampal blok teks"
+
+#: dialog.py:564
+msgid "Pin"
+msgstr "Semat"
+
+#: dialog.py:469
+msgid "Pinned"
+msgstr "Disemat"
+
+#: dialog.py:370
+msgid "Please enter a block name."
+msgstr "Sila masukkan nama blok."
+
+#: dialog.py:441
+msgid "Select destination category:"
+msgstr "Pilih kategori destinasi:"
+
+#: dialog.py:397
+msgid "Success"
+msgstr "Berjaya"
+
+#: dialog.py:52
+msgid "Text blocks:"
+msgstr "Blok teks:"
+
+#: dialog.py:564
+msgid "Unpin"
+msgstr "Cabut semat"
+
+#: dialog.py:469
+msgid "Unpinned"
+msgstr "Semat dicabut"
+
+#: __init__.py:18
+#: __init__.py:32
+#: dialog.py:17
+#: settings.py:9
+msgid "xBlock"
+msgstr "xBlock"

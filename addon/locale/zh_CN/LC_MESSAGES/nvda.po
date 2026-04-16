@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock 2026.4.4\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-04-16 17:15+0700\n"
+"PO-Revision-Date: 2026-04-16 18:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: dialog.py:70
+#: dialog.py:222
+msgid "&Add"
+msgstr "添加 (&A)"
+
+#: dialog.py:76
+msgid "&Cancel"
+msgstr "取消 (&C)"
+
+#: dialog.py:73
+#: dialog.py:136
+msgid "&Delete"
+msgstr "删除 (&D)"
+
+#: dialog.py:71
+#: dialog.py:131
+msgid "&Edit"
+msgstr "编辑 (&E)"
+
+#: dialog.py:122
+msgid "&Edit Category"
+msgstr "编辑分类 (&E)"
+
+#: dialog.py:121
+msgid "&New Category"
+msgstr "新建分类 (&N)"
+
+#: dialog.py:72
+#: dialog.py:130
+msgid "&Paste"
+msgstr "粘贴 (&P)"
+
+#: dialog.py:132
+msgid "&Pin/Unpin"
+msgstr "固定/取消固定 (&P)"
+
+#: dialog.py:123
+msgid "&Remove Category"
+msgstr "移除分类 (&R)"
+
+#: dialog.py:411
+msgid "&Save"
+msgstr "保存 (&S)"
+
+#: settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "打开 xBlock 的快捷键 (&S):"
+
+#: dialog.py:375
+msgid "A block with this name already exists in this category."
+msgstr "此分类中已存在同名文本块。"
+
+#: dialog.py:56
+msgid "Block Name"
+msgstr "文本块名称"
+
+#: dialog.py:64
+msgid "Block content:"
+msgstr "文本块内容:"
+
+#: dialog.py:432
+msgid "Block deleted."
+msgstr "文本块已删除。"
+
+#: dialog.py:459
+msgid "Block moved to {0}."
+msgstr "文本块已移动到 {0}。"
+
+#: dialog.py:59
+msgid "Block name:"
+msgstr "文本块名称:"
+
+#: dialog.py:316
+msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr "无法删除包含文本块的分类。请先移动或删除所有文本块。"
+
+#: dialog.py:39
+msgid "Categories:"
+msgstr "分类:"
+
+#: dialog.py:282
+#: dialog.py:302
+msgid "Category already exists."
+msgstr "分类已存在。"
+
+#: dialog.py:280
+#: dialog.py:298
+msgid "Category name cannot be empty."
+msgstr "分类名称不能为空。"
+
+#: dialog.py:320
+#: dialog.py:425
+msgid "Confirm deletion"
+msgstr "确认删除"
+
+#: dialog.py:294
+msgid "Edit Category"
+msgstr "编辑分类"
+
+#: dialog.py:276
+msgid "Enter category name:"
+msgstr "输入分类名称:"
+
+#: dialog.py:280
+#: dialog.py:282
+#: dialog.py:298
+#: dialog.py:302
+#: dialog.py:317
+#: dialog.py:370
+#: dialog.py:376
+#: dialog.py:518
+#: dialog.py:557
+msgid "Error"
+msgstr "错误"
+
+#: dialog.py:517
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "复制到剪贴板失败。请重试。"
+
+#: dialog.py:556
+msgid "Failed to paste. Please use Ctrl+V manually."
+msgstr "粘贴失败。请手动使用 Ctrl+V。"
+
+#: dialog.py:134
+msgid "Move &Down"
+msgstr "下移 (&D)"
+
+#: dialog.py:133
+msgid "Move &Up"
+msgstr "上移 (&U)"
+
+#: dialog.py:442
+msgid "Move Block"
+msgstr "移动文本块"
+
+#: dialog.py:74
+#: dialog.py:135
+msgid "Move to Category"
+msgstr "移动到分类"
+
+#: dialog.py:499
+msgid "Moved down"
+msgstr "已下移"
+
+#: dialog.py:483
+msgid "Moved up"
+msgstr "已上移"
+
+#: dialog.py:75
+msgid "New &Category"
+msgstr "新建分类 (&C)"
+
+#: dialog.py:276
+msgid "New Category"
+msgstr "新建分类"
+
+#: dialog.py:294
+msgid "New name for category:"
+msgstr "分类的新名称:"
+
+#: __init__.py:31
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "打开 xBlock 对话框以管理和粘贴文本块"
+
+#: dialog.py:564
+msgid "Pin"
+msgstr "固定"
+
+#: dialog.py:469
+msgid "Pinned"
+msgstr "已固定"
+
+#: dialog.py:370
+msgid "Please enter a block name."
+msgstr "请输入文本块名称。"
+
+#: dialog.py:441
+msgid "Select destination category:"
+msgstr "选择目标分类:"
+
+#: dialog.py:397
+msgid "Success"
+msgstr "成功"
+
+#: dialog.py:52
+msgid "Text blocks:"
+msgstr "文本块:"
+
+#: dialog.py:564
+msgid "Unpin"
+msgstr "取消固定"
+
+#: dialog.py:469
+msgid "Unpinned"
+msgstr "已取消固定"
+
+#: __init__.py:18
+#: __init__.py:32
+#: dialog.py:17
+#: settings.py:9
+msgid "xBlock"
+msgstr "xBlock"

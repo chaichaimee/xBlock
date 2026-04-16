@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock 2026.4.4\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-04-16 17:15+0700\n"
+"PO-Revision-Date: 2026-04-16 17:45+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: dialog.py:70
+#: dialog.py:222
+msgid "&Add"
+msgstr "추가(&A)"
+
+#: dialog.py:76
+msgid "&Cancel"
+msgstr "취소(&C)"
+
+#: dialog.py:73
+#: dialog.py:136
+msgid "&Delete"
+msgstr "삭제(&D)"
+
+#: dialog.py:71
+#: dialog.py:131
+msgid "&Edit"
+msgstr "편집(&E)"
+
+#: dialog.py:122
+msgid "&Edit Category"
+msgstr "카테고리 편집(&E)"
+
+#: dialog.py:121
+msgid "&New Category"
+msgstr "새 카테고리(&N)"
+
+#: dialog.py:72
+#: dialog.py:130
+msgid "&Paste"
+msgstr "붙여넣기(&P)"
+
+#: dialog.py:132
+msgid "&Pin/Unpin"
+msgstr "고정/해제(&P)"
+
+#: dialog.py:123
+msgid "&Remove Category"
+msgstr "카테고리 제거(&R)"
+
+#: dialog.py:411
+msgid "&Save"
+msgstr "저장(&S)"
+
+#: settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "xBlock 열기 단축키(&S):"
+
+#: dialog.py:375
+msgid "A block with this name already exists in this category."
+msgstr "이 이름의 블록이 이미 이 카테고리에 존재합니다."
+
+#: dialog.py:56
+msgid "Block Name"
+msgstr "블록 이름"
+
+#: dialog.py:64
+msgid "Block content:"
+msgstr "블록 내용:"
+
+#: dialog.py:432
+msgid "Block deleted."
+msgstr "블록이 삭제되었습니다."
+
+#: dialog.py:459
+msgid "Block moved to {0}."
+msgstr "블록이 {0}(으)로 이동되었습니다."
+
+#: dialog.py:59
+msgid "Block name:"
+msgstr "블록 이름:"
+
+#: dialog.py:316
+msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr "블록이 포함된 카테고리는 제거할 수 없습니다. 모든 블록을 먼저 이동하거나 삭제하세요."
+
+#: dialog.py:39
+msgid "Categories:"
+msgstr "카테고리:"
+
+#: dialog.py:282
+#: dialog.py:302
+msgid "Category already exists."
+msgstr "카테고리가 이미 존재합니다."
+
+#: dialog.py:280
+#: dialog.py:298
+msgid "Category name cannot be empty."
+msgstr "카테고리 이름은 비워 둘 수 없습니다."
+
+#: dialog.py:320
+#: dialog.py:425
+msgid "Confirm deletion"
+msgstr "삭제 확인"
+
+#: dialog.py:294
+msgid "Edit Category"
+msgstr "카테고리 편집"
+
+#: dialog.py:276
+msgid "Enter category name:"
+msgstr "카테고리 이름 입력:"
+
+#: dialog.py:280
+#: dialog.py:282
+#: dialog.py:298
+#: dialog.py:302
+#: dialog.py:317
+#: dialog.py:370
+#: dialog.py:376
+#: dialog.py:518
+#: dialog.py:557
+msgid "Error"
+msgstr "오류"
+
+#: dialog.py:517
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "클립보드 복사에 실패했습니다. 다시 시도해 주세요."
+
+#: dialog.py:556
+msgid "Failed to paste. Please use Ctrl+V manually."
+msgstr "붙여넣기에 실패했습니다. Ctrl+V를 직접 사용해 주세요."
+
+#: dialog.py:134
+msgid "Move &Down"
+msgstr "아래로 이동(&D)"
+
+#: dialog.py:133
+msgid "Move &Up"
+msgstr "위로 이동(&U)"
+
+#: dialog.py:442
+msgid "Move Block"
+msgstr "블록 이동"
+
+#: dialog.py:74
+#: dialog.py:135
+msgid "Move to Category"
+msgstr "카테고리로 이동"
+
+#: dialog.py:499
+msgid "Moved down"
+msgstr "아래로 이동됨"
+
+#: dialog.py:483
+msgid "Moved up"
+msgstr "위로 이동됨"
+
+#: dialog.py:75
+msgid "New &Category"
+msgstr "새 카테고리(&C)"
+
+#: dialog.py:276
+msgid "New Category"
+msgstr "새 카테고리"
+
+#: dialog.py:294
+msgid "New name for category:"
+msgstr "카테고리의 새 이름:"
+
+#: __init__.py:31
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "텍스트 블록을 관리하고 붙여넣는 xBlock 대화 상자를 엽니다"
+
+#: dialog.py:564
+msgid "Pin"
+msgstr "고정"
+
+#: dialog.py:469
+msgid "Pinned"
+msgstr "고정됨"
+
+#: dialog.py:370
+msgid "Please enter a block name."
+msgstr "블록 이름을 입력해 주세요."
+
+#: dialog.py:441
+msgid "Select destination category:"
+msgstr "대상 카테고리 선택:"
+
+#: dialog.py:397
+msgid "Success"
+msgstr "성공"
+
+#: dialog.py:52
+msgid "Text blocks:"
+msgstr "텍스트 블록:"
+
+#: dialog.py:564
+msgid "Unpin"
+msgstr "고정 해제"
+
+#: dialog.py:469
+msgid "Unpinned"
+msgstr "고정 해제됨"
+
+#: __init__.py:18
+#: __init__.py:32
+#: dialog.py:17
+#: settings.py:9
+msgid "xBlock"
+msgstr "xBlock"

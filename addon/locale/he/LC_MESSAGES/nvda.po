@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock 2026.4.4\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-04-16 17:15+0700\n"
+"PO-Revision-Date: 2026-04-16 17:45+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Hebrew\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: dialog.py:70
+#: dialog.py:222
+msgid "&Add"
+msgstr "הוספה&"
+
+#: dialog.py:76
+msgid "&Cancel"
+msgstr "ביטול&"
+
+#: dialog.py:73
+#: dialog.py:136
+msgid "&Delete"
+msgstr "מחיקה&"
+
+#: dialog.py:71
+#: dialog.py:131
+msgid "&Edit"
+msgstr "עריכה&"
+
+#: dialog.py:122
+msgid "&Edit Category"
+msgstr "עריכת קטגוריה&"
+
+#: dialog.py:121
+msgid "&New Category"
+msgstr "קטגוריה חדשה&"
+
+#: dialog.py:72
+#: dialog.py:130
+msgid "&Paste"
+msgstr "הדבקה&"
+
+#: dialog.py:132
+msgid "&Pin/Unpin"
+msgstr "נעיצה/ביטול נעיצה&"
+
+#: dialog.py:123
+msgid "&Remove Category"
+msgstr "הסרת קטגוריה&"
+
+#: dialog.py:411
+msgid "&Save"
+msgstr "שמירה&"
+
+#: settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "קיצור דרך לפתיחת xBlock&:"
+
+#: dialog.py:375
+msgid "A block with this name already exists in this category."
+msgstr "בלוק בשם זה כבר קיים בקטגוריה זו."
+
+#: dialog.py:56
+msgid "Block Name"
+msgstr "שם הבלוק"
+
+#: dialog.py:64
+msgid "Block content:"
+msgstr "תוכן הבלוק:"
+
+#: dialog.py:432
+msgid "Block deleted."
+msgstr "הבלוק נמחק."
+
+#: dialog.py:459
+msgid "Block moved to {0}."
+msgstr "הבלוק הועבר אל {0}."
+
+#: dialog.py:59
+msgid "Block name:"
+msgstr "שם הבלוק:"
+
+#: dialog.py:316
+msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr "לא ניתן להסיר קטגוריה המכילה בלוקים. יש להעביר או למחוק את כל הבלוקים תחילה."
+
+#: dialog.py:39
+msgid "Categories:"
+msgstr "קטגוריות:"
+
+#: dialog.py:282
+#: dialog.py:302
+msgid "Category already exists."
+msgstr "הקטגוריה כבר קיימת."
+
+#: dialog.py:280
+#: dialog.py:298
+msgid "Category name cannot be empty."
+msgstr "שם הקטגוריה לא יכול להיות ריק."
+
+#: dialog.py:320
+#: dialog.py:425
+msgid "Confirm deletion"
+msgstr "אישור מחיקה"
+
+#: dialog.py:294
+msgid "Edit Category"
+msgstr "עריכת קטגוריה"
+
+#: dialog.py:276
+msgid "Enter category name:"
+msgstr "הזן שם קטגוריה:"
+
+#: dialog.py:280
+#: dialog.py:282
+#: dialog.py:298
+#: dialog.py:302
+#: dialog.py:317
+#: dialog.py:370
+#: dialog.py:376
+#: dialog.py:518
+#: dialog.py:557
+msgid "Error"
+msgstr "שגיאה"
+
+#: dialog.py:517
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "ההעתקה ללוח נכשלה. נסה שוב."
+
+#: dialog.py:556
+msgid "Failed to paste. Please use Ctrl+V manually."
+msgstr "ההדבקה נכשלה. השתמש ב-Ctrl+V באופן ידני."
+
+#: dialog.py:134
+msgid "Move &Down"
+msgstr "הזזה למטה&"
+
+#: dialog.py:133
+msgid "Move &Up"
+msgstr "הזזה למעלה&"
+
+#: dialog.py:442
+msgid "Move Block"
+msgstr "הזזת בלוק"
+
+#: dialog.py:74
+#: dialog.py:135
+msgid "Move to Category"
+msgstr "העברה לקטגוריה"
+
+#: dialog.py:499
+msgid "Moved down"
+msgstr "הועבר למטה"
+
+#: dialog.py:483
+msgid "Moved up"
+msgstr "הועבר למעלה"
+
+#: dialog.py:75
+msgid "New &Category"
+msgstr "קטגוריה חדשה&"
+
+#: dialog.py:276
+msgid "New Category"
+msgstr "קטגוריה חדשה"
+
+#: dialog.py:294
+msgid "New name for category:"
+msgstr "שם חדש לקטגוריה:"
+
+#: __init__.py:31
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "פותח את דיאלוג xBlock לניהול והדבקת בלוקים של טקסט"
+
+#: dialog.py:564
+msgid "Pin"
+msgstr "נעיצה"
+
+#: dialog.py:469
+msgid "Pinned"
+msgstr "נעוץ"
+
+#: dialog.py:370
+msgid "Please enter a block name."
+msgstr "אנא הזן שם בלוק."
+
+#: dialog.py:441
+msgid "Select destination category:"
+msgstr "בחר קטגוריית יעד:"
+
+#: dialog.py:397
+msgid "Success"
+msgstr "הצלחה"
+
+#: dialog.py:52
+msgid "Text blocks:"
+msgstr "בלוקים של טקסט:"
+
+#: dialog.py:564
+msgid "Unpin"
+msgstr "ביטול נעיצה"
+
+#: dialog.py:469
+msgid "Unpinned"
+msgstr "בוטלה הנעיצה"
+
+#: __init__.py:18
+#: __init__.py:32
+#: dialog.py:17
+#: settings.py:9
+msgid "xBlock"
+msgstr "xBlock"

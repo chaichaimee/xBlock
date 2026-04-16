@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock 2026.4.4\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-04-16 17:15+0700\n"
+"PO-Revision-Date: 2026-04-16 18:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Sinhala\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: dialog.py:70
+#: dialog.py:222
+msgid "&Add"
+msgstr "එක් කරන්න (&A)"
+
+#: dialog.py:76
+msgid "&Cancel"
+msgstr "අවලංගු කරන්න (&C)"
+
+#: dialog.py:73
+#: dialog.py:136
+msgid "&Delete"
+msgstr "මකන්න (&D)"
+
+#: dialog.py:71
+#: dialog.py:131
+msgid "&Edit"
+msgstr "සංස්කරණය කරන්න (&E)"
+
+#: dialog.py:122
+msgid "&Edit Category"
+msgstr "ප්‍රවර්ගය සංස්කරණය කරන්න (&E)"
+
+#: dialog.py:121
+msgid "&New Category"
+msgstr "නව ප්‍රවර්ගය (&N)"
+
+#: dialog.py:72
+#: dialog.py:130
+msgid "&Paste"
+msgstr "අලවන්න (&P)"
+
+#: dialog.py:132
+msgid "&Pin/Unpin"
+msgstr "ඇලවීම/ගැලවීම (&P)"
+
+#: dialog.py:123
+msgid "&Remove Category"
+msgstr "ප්‍රවර්ගය ඉවත් කරන්න (&R)"
+
+#: dialog.py:411
+msgid "&Save"
+msgstr "සුරකින්න (&S)"
+
+#: settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "xBlock විවෘත කිරීමට කෙටිමඟ (&S):"
+
+#: dialog.py:375
+msgid "A block with this name already exists in this category."
+msgstr "මෙම නමින් යුත් බ්ලොක් එකක් මෙම ප්‍රවර්ගයේ දැනටමත් පවතී."
+
+#: dialog.py:56
+msgid "Block Name"
+msgstr "බ්ලොක් නම"
+
+#: dialog.py:64
+msgid "Block content:"
+msgstr "බ්ලොක් අන්තර්ගතය:"
+
+#: dialog.py:432
+msgid "Block deleted."
+msgstr "බ්ලොක් එක මකා දමන ලදී."
+
+#: dialog.py:459
+msgid "Block moved to {0}."
+msgstr "බ්ලොක් එක {0} වෙත ගෙන යන ලදී."
+
+#: dialog.py:59
+msgid "Block name:"
+msgstr "බ්ලොක් නම:"
+
+#: dialog.py:316
+msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr "බ්ලොක් පවතින ප්‍රවර්ග ඉවත් කළ නොහැක. පළමුව සියලුම බ්ලොක් ගෙන යාම හෝ මකා දැමීම සිදු කරන්න."
+
+#: dialog.py:39
+msgid "Categories:"
+msgstr "ප්‍රවර්ග:"
+
+#: dialog.py:282
+#: dialog.py:302
+msgid "Category already exists."
+msgstr "ප්‍රවර්ගය දැනටමත් පවතී."
+
+#: dialog.py:280
+#: dialog.py:298
+msgid "Category name cannot be empty."
+msgstr "ප්‍රවර්ග නාමය හිස් විය නොහැක."
+
+#: dialog.py:320
+#: dialog.py:425
+msgid "Confirm deletion"
+msgstr "මැකීම තහවුරු කරන්න"
+
+#: dialog.py:294
+msgid "Edit Category"
+msgstr "ප්‍රවර්ගය සංස්කරණය කරන්න"
+
+#: dialog.py:276
+msgid "Enter category name:"
+msgstr "ප්‍රවර්ග නාමය ඇතුළත් කරන්න:"
+
+#: dialog.py:280
+#: dialog.py:282
+#: dialog.py:298
+#: dialog.py:302
+#: dialog.py:317
+#: dialog.py:370
+#: dialog.py:376
+#: dialog.py:518
+#: dialog.py:557
+msgid "Error"
+msgstr "දෝෂයකි"
+
+#: dialog.py:517
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "ක්ලිප්බෝඩ් එකට පිටපත් කිරීම අසාර්ථක විය. නැවත උත්සාහ කරන්න."
+
+#: dialog.py:556
+msgid "Failed to paste. Please use Ctrl+V manually."
+msgstr "ඇලවීම අසාර්ථක විය. කරුණාකර Ctrl+V භාවිතා කරන්න."
+
+#: dialog.py:134
+msgid "Move &Down"
+msgstr "පහළට ගෙන යන්න (&D)"
+
+#: dialog.py:133
+msgid "Move &Up"
+msgstr "ඉහළට ගෙන යන්න (&U)"
+
+#: dialog.py:442
+msgid "Move Block"
+msgstr "බ්ලොක් එක ගෙන යන්න"
+
+#: dialog.py:74
+#: dialog.py:135
+msgid "Move to Category"
+msgstr "ප්‍රවර්ගයට ගෙන යන්න"
+
+#: dialog.py:499
+msgid "Moved down"
+msgstr "පහළට ගෙන යන ලදී"
+
+#: dialog.py:483
+msgid "Moved up"
+msgstr "ඉහළට ගෙන යන ලදී"
+
+#: dialog.py:75
+msgid "New &Category"
+msgstr "නව ප්‍රවර්ගය (&C)"
+
+#: dialog.py:276
+msgid "New Category"
+msgstr "නව ප්‍රවර්ගය"
+
+#: dialog.py:294
+msgid "New name for category:"
+msgstr "ප්‍රවර්ගය සඳහා නව නම:"
+
+#: __init__.py:31
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "පෙළ බ්ලොක් කළමනාකරණයට සහ ඇලවීමට xBlock විවෘත කරයි"
+
+#: dialog.py:564
+msgid "Pin"
+msgstr "අලවන්න"
+
+#: dialog.py:469
+msgid "Pinned"
+msgstr "අලවන ලදී"
+
+#: dialog.py:370
+msgid "Please enter a block name."
+msgstr "කරුණාකර බ්ලොක් නමක් ඇතුළත් කරන්න."
+
+#: dialog.py:441
+msgid "Select destination category:"
+msgstr "ගමනාන්ත ප්‍රවර්ගය තෝරන්න:"
+
+#: dialog.py:397
+msgid "Success"
+msgstr "සාර්ථකයි"
+
+#: dialog.py:52
+msgid "Text blocks:"
+msgstr "පෙළ බ්ලොක්:"
+
+#: dialog.py:564
+msgid "Unpin"
+msgstr "ගලවන්න"
+
+#: dialog.py:469
+msgid "Unpinned"
+msgstr "ගලවන ලදී"
+
+#: __init__.py:18
+#: __init__.py:32
+#: dialog.py:17
+#: settings.py:9
+msgid "xBlock"
+msgstr "xBlock"

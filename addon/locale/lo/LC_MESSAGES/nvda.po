@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xBlock 2026.4.4\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-04-16 17:15+0700\n"
+"PO-Revision-Date: 2026-04-16 18:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Lao\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: dialog.py:70
+#: dialog.py:222
+msgid "&Add"
+msgstr "ເພີ່ມ (&A)"
+
+#: dialog.py:76
+msgid "&Cancel"
+msgstr "ຍົກເລີກ (&C)"
+
+#: dialog.py:73
+#: dialog.py:136
+msgid "&Delete"
+msgstr "ລຶບ (&D)"
+
+#: dialog.py:71
+#: dialog.py:131
+msgid "&Edit"
+msgstr "ແກ້ໄຂ (&E)"
+
+#: dialog.py:122
+msgid "&Edit Category"
+msgstr "ແກ້ໄຂໝວດໝູ່ (&E)"
+
+#: dialog.py:121
+msgid "&New Category"
+msgstr "ໝວດໝູ່ໃໝ່ (&N)"
+
+#: dialog.py:72
+#: dialog.py:130
+msgid "&Paste"
+msgstr "ວາງ (&P)"
+
+#: dialog.py:132
+msgid "&Pin/Unpin"
+msgstr "ປັກໝຸດ/ຖອນໝຸດ (&P)"
+
+#: dialog.py:123
+msgid "&Remove Category"
+msgstr "ລຶບໝວດໝູ່ອອກ (&R)"
+
+#: dialog.py:411
+msgid "&Save"
+msgstr "ບັນທຶກ (&S)"
+
+#: settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "ປຸ່ມລັດເພື່ອເປີດ xBlock (&S):"
+
+#: dialog.py:375
+msgid "A block with this name already exists in this category."
+msgstr "ມີບລັອກຊື່ນີ້ຢູ່ໃນໝວດໝູ່ນີ້ແລ້ວ."
+
+#: dialog.py:56
+msgid "Block Name"
+msgstr "ຊື່ບລັອກ"
+
+#: dialog.py:64
+msgid "Block content:"
+msgstr "ເນື້ອໃນບລັອກ:"
+
+#: dialog.py:432
+msgid "Block deleted."
+msgstr "ລຶບບລັອກແລ້ວ."
+
+#: dialog.py:459
+msgid "Block moved to {0}."
+msgstr "ຍ້າຍບລັອກໄປທີ່ {0} ແລ້ວ."
+
+#: dialog.py:59
+msgid "Block name:"
+msgstr "ຊື່ບລັອກ:"
+
+#: dialog.py:316
+msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr "ບໍ່ສາມາດລຶບໝວດໝູ່ທີ່ມີບລັອກຢູ່ໄດ້. ກະລຸນາຍ້າຍ ຫຼື ລຶບບລັອກທັງໝົດອອກກ່ອນ."
+
+#: dialog.py:39
+msgid "Categories:"
+msgstr "ໝວດໝູ່:"
+
+#: dialog.py:282
+#: dialog.py:302
+msgid "Category already exists."
+msgstr "ມີໝວດໝູນີ້ຢູ່ແລ້ວ."
+
+#: dialog.py:280
+#: dialog.py:298
+msgid "Category name cannot be empty."
+msgstr "ຊື່ໝວດໝູ່ບໍ່ສາມາດຫວ່າງໄດ້."
+
+#: dialog.py:320
+#: dialog.py:425
+msgid "Confirm deletion"
+msgstr "ຢືນຢັນການລຶບ"
+
+#: dialog.py:294
+msgid "Edit Category"
+msgstr "ແກ້ໄຂໝວດໝູ່"
+
+#: dialog.py:276
+msgid "Enter category name:"
+msgstr "ປ້ອນຊື່ໝວດໝູ່:"
+
+#: dialog.py:280
+#: dialog.py:282
+#: dialog.py:298
+#: dialog.py:302
+#: dialog.py:317
+#: dialog.py:370
+#: dialog.py:376
+#: dialog.py:518
+#: dialog.py:557
+msgid "Error"
+msgstr "ຂໍ້ຜິດພາດ"
+
+#: dialog.py:517
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "ຄັດລອກໄປທີ່ຄລິບບອດບໍ່ສຳເລັດ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ."
+
+#: dialog.py:556
+msgid "Failed to paste. Please use Ctrl+V manually."
+msgstr "ວາງບໍ່ສຳເລັດ. ກະລຸນາໃຊ້ Ctrl+V ດ້ວຍຕົນເອງ."
+
+#: dialog.py:134
+msgid "Move &Down"
+msgstr "ຍ້າຍລົງ (&D)"
+
+#: dialog.py:133
+msgid "Move &Up"
+msgstr "ຍ້າຍຂຶ້ນ (&U)"
+
+#: dialog.py:442
+msgid "Move Block"
+msgstr "ຍ້ายບລັອກ"
+
+#: dialog.py:74
+#: dialog.py:135
+msgid "Move to Category"
+msgstr "ຍ້າຍໄປໝວດໝູ່"
+
+#: dialog.py:499
+msgid "Moved down"
+msgstr "ຍ້າຍລົງແລ້ວ"
+
+#: dialog.py:483
+msgid "Moved up"
+msgstr "ຍ້າຍຂຶ້ນແລ້ວ"
+
+#: dialog.py:75
+msgid "New &Category"
+msgstr "ໝວດໝູ່ໃໝ່ (&C)"
+
+#: dialog.py:276
+msgid "New Category"
+msgstr "ໝວດໝູ່ໃໝ່"
+
+#: dialog.py:294
+msgid "New name for category:"
+msgstr "ຊື່ໃໝ່ສຳລັບໝວດໝູ່:"
+
+#: __init__.py:31
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "ເປີດໜ້າຕ່າງ xBlock ເພື່ອຈັດການ ແລະ ວາງບລັອກຂໍ້ຄວາມ"
+
+#: dialog.py:564
+msgid "Pin"
+msgstr "ປັກໝຸດ"
+
+#: dialog.py:469
+msgid "Pinned"
+msgstr "ປັກໝຸດແລ້ວ"
+
+#: dialog.py:370
+msgid "Please enter a block name."
+msgstr "ກະລຸນາປ້ອນຊື່ບລັอก."
+
+#: dialog.py:441
+msgid "Select destination category:"
+msgstr "ເລືອກໝວດໝູ່ປາຍທາງ:"
+
+#: dialog.py:397
+msgid "Success"
+msgstr "ສຳເລັດ"
+
+#: dialog.py:52
+msgid "Text blocks:"
+msgstr "ບລັອກຂໍ້ຄວາມ:"
+
+#: dialog.py:564
+msgid "Unpin"
+msgstr "ຖອນໝຸດ"
+
+#: dialog.py:469
+msgid "Unpinned"
+msgstr "ຖອນໝຸດແລ້ວ"
+
+#: __init__.py:18
+#: __init__.py:32
+#: dialog.py:17
+#: settings.py:9
+msgid "xBlock"
+msgstr "xBlock"

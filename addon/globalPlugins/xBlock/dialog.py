@@ -5,7 +5,10 @@ import api
 import core
 import ui
 import watchdog
-from keyboardHandler import KeyboardInputGesture
+import keyboardHandler
+import time
+import ctypes
+from ctypes import wintypes
 from .config import save_config
 from logHandler import log
 
@@ -497,7 +500,6 @@ class XBlockDialog(wx.Dialog):
 				return
 		wx.Bell()
 
-	# Modified paste methods for stability
 	def _on_paste(self, event):
 		block_name, block_data = self._get_selected_block_data()
 		if not block_name or not block_data:
@@ -510,29 +512,44 @@ class XBlockDialog(wx.Dialog):
 		try:
 			api.copyToClip(content)
 		except Exception as e:
-			log.error(f"Clipboard copy failed: {e}")
+			log.error(f"Clipboard copy failed: {type(e).__name__}: {e}")
 			wx.CallAfter(wx.MessageBox,
 				_("Failed to copy to clipboard. Please try again."),
 				_("Error"), wx.OK | wx.ICON_ERROR)
 			return
 
 		self.Hide()
-		core.callLater(100, self._do_paste)
+		wx.CallAfter(self._do_paste)
 
 	def _do_paste(self):
 		try:
 			focus = api.getFocusObject()
 			if not focus or not focus.windowHandle:
-				log.error("Paste failed: No valid focus or window handle")
-				self._show_paste_error()
-				return
-
-			KeyboardInputGesture.fromName("control+v").send()
+				focus = api.getForegroundObject()
+				if not focus or not focus.windowHandle:
+					self._show_paste_error()
+					return
+			
+			time.sleep(0.05)
+			
+			VK_CONTROL = 0x11
+			VK_V = 0x56
+			KEYEVENTF_KEYUP = 0x0002
+			user32 = ctypes.windll.user32
+			
+			user32.keybd_event(VK_CONTROL, 0, 0, 0)
+			time.sleep(0.01)
+			user32.keybd_event(VK_V, 0, 0, 0)
+			time.sleep(0.01)
+			user32.keybd_event(VK_V, 0, KEYEVENTF_KEYUP, 0)
+			time.sleep(0.01)
+			user32.keybd_event(VK_CONTROL, 0, KEYEVENTF_KEYUP, 0)
+			
 		except Exception as e:
-			log.error(f"Paste failed: {e}")
+			log.error(f"Paste failed: {type(e).__name__}: {e}")
 			self._show_paste_error()
-
-		core.callLater(50, self.Destroy)
+		finally:
+			core.callLater(100, self.Destroy)
 
 	def _show_paste_error(self):
 		wx.CallAfter(wx.MessageBox,
