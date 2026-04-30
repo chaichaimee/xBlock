@@ -2,215 +2,215 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xBlock 2026.4.4\n"
 "Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
-"POT-Creation-Date: 2026-04-16 17:15+0700\n"
-"PO-Revision-Date: 2026-04-16 18:15+0700\n"
+"POT-Creation-Date: 2026-04-30 19:09+0300\n"
+"PO-Revision-Date: 2026-04-30 19:11+0300\n"
 "Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: DevOn Addon\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-Basepath: ../../../globalPlugins\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: dialog.py:70
-#: dialog.py:222
-msgid "&Add"
-msgstr "&Додати"
+#: xBlock/__init__.py:18 xBlock/__init__.py:32 xBlock/dialog.py:17
+#: xBlock/settings.py:9
+msgid "xBlock"
+msgstr "xBlock"
 
-#: dialog.py:76
-msgid "&Cancel"
-msgstr "&Скасувати"
+#: xBlock/__init__.py:31
+msgid "Opens xBlock dialog to manage and paste text blocks"
+msgstr "Відкриває діалог xBlock для керування та вставки текстових блоків"
 
-#: dialog.py:73
-#: dialog.py:136
-msgid "&Delete"
-msgstr "В&идалити"
-
-#: dialog.py:71
-#: dialog.py:131
-msgid "&Edit"
-msgstr "&Редагувати"
-
-#: dialog.py:122
-msgid "&Edit Category"
-msgstr "&Змінити категорію"
-
-#: dialog.py:121
-msgid "&New Category"
-msgstr "&Нова категорія"
-
-#: dialog.py:72
-#: dialog.py:130
-msgid "&Paste"
-msgstr "Вс&тавити"
-
-#: dialog.py:132
-msgid "&Pin/Unpin"
-msgstr "&Закріпити/Відкріпити"
-
-#: dialog.py:123
-msgid "&Remove Category"
-msgstr "В&идалити категорію"
-
-#: dialog.py:411
-msgid "&Save"
-msgstr "&Зберегти"
-
-#: settings.py:14
-msgid "&Shortcut to open xBlock:"
-msgstr "&Гарячі клавіші для xBlock:"
-
-#: dialog.py:375
-msgid "A block with this name already exists in this category."
-msgstr "Блок із такою назвою вже існує в цій категорії."
-
-#: dialog.py:56
-msgid "Block Name"
-msgstr "Назва блоку"
-
-#: dialog.py:64
-msgid "Block content:"
-msgstr "Вміст блоку:"
-
-#: dialog.py:432
-msgid "Block deleted."
-msgstr "Блок видалено."
-
-#: dialog.py:459
-msgid "Block moved to {0}."
-msgstr "Блок переміщено до {0}."
-
-#: dialog.py:59
-msgid "Block name:"
-msgstr "Назва блоку:"
-
-#: dialog.py:316
-msgid "Cannot remove category that contains blocks. Move or delete all blocks first."
-msgstr "Неможливо видалити категорію, що містить блоки. Спочатку перемістіть або видаліть усі блоки."
-
-#: dialog.py:39
+#: xBlock/dialog.py:39
 msgid "Categories:"
 msgstr "Категорії:"
 
-#: dialog.py:282
-#: dialog.py:302
-msgid "Category already exists."
-msgstr "Категорія вже існує."
-
-#: dialog.py:280
-#: dialog.py:298
-msgid "Category name cannot be empty."
-msgstr "Назва категорії не може бути порожньою."
-
-#: dialog.py:320
-#: dialog.py:425
-msgid "Confirm deletion"
-msgstr "Підтвердження видалення"
-
-#: dialog.py:294
-msgid "Edit Category"
-msgstr "Редагувати категорію"
-
-#: dialog.py:276
-msgid "Enter category name:"
-msgstr "Введіть назву категорії:"
-
-#: dialog.py:280
-#: dialog.py:282
-#: dialog.py:298
-#: dialog.py:302
-#: dialog.py:317
-#: dialog.py:370
-#: dialog.py:376
-#: dialog.py:518
-#: dialog.py:557
-msgid "Error"
-msgstr "Помилка"
-
-#: dialog.py:517
-msgid "Failed to copy to clipboard. Please try again."
-msgstr "Не вдалося скопіювати в буфер обміну. Спробуйте ще раз."
-
-#: dialog.py:556
-msgid "Failed to paste. Please use Ctrl+V manually."
-msgstr "Не вдалося вставити. Будь ласка, скористайтеся Ctrl+V вручну."
-
-#: dialog.py:134
-msgid "Move &Down"
-msgstr "Перемістити в&низ"
-
-#: dialog.py:133
-msgid "Move &Up"
-msgstr "Перемістити в&гору"
-
-#: dialog.py:442
-msgid "Move Block"
-msgstr "Перемістити блок"
-
-#: dialog.py:74
-#: dialog.py:135
-msgid "Move to Category"
-msgstr "Перемістити до категорії"
-
-#: dialog.py:499
-msgid "Moved down"
-msgstr "Переміщено вниз"
-
-#: dialog.py:483
-msgid "Moved up"
-msgstr "Переміщено вгору"
-
-#: dialog.py:75
-msgid "New &Category"
-msgstr "&Нова категорія"
-
-#: dialog.py:276
-msgid "New Category"
-msgstr "Нова категорія"
-
-#: dialog.py:294
-msgid "New name for category:"
-msgstr "Нова назва категорії:"
-
-#: __init__.py:31
-msgid "Opens xBlock dialog to manage and paste text blocks"
-msgstr "Відкриває вікно xBlock для керування та вставки текстових блоків"
-
-#: dialog.py:564
-msgid "Pin"
-msgstr "Закріпити"
-
-#: dialog.py:469
-msgid "Pinned"
-msgstr "Закріплено"
-
-#: dialog.py:370
-msgid "Please enter a block name."
-msgstr "Будь ласка, введіть назву блоку."
-
-#: dialog.py:441
-msgid "Select destination category:"
-msgstr "Оберіть цільову категорію:"
-
-#: dialog.py:397
-msgid "Success"
-msgstr "Успішно"
-
-#: dialog.py:52
+#: xBlock/dialog.py:52
 msgid "Text blocks:"
 msgstr "Текстові блоки:"
 
-#: dialog.py:564
-msgid "Unpin"
-msgstr "Відкріпити"
+#: xBlock/dialog.py:56
+msgid "Block Name"
+msgstr "Назва блоку"
 
-#: dialog.py:469
+#: xBlock/dialog.py:59
+msgid "Block name:"
+msgstr "Назва блоку:"
+
+#: xBlock/dialog.py:64
+msgid "Block content:"
+msgstr "Вміст блоку:"
+
+#: xBlock/dialog.py:70 xBlock/dialog.py:222
+msgid "&Add"
+msgstr "&Додати"
+
+#: xBlock/dialog.py:71 xBlock/dialog.py:131
+msgid "&Edit"
+msgstr "&Редагувати"
+
+#: xBlock/dialog.py:72 xBlock/dialog.py:130
+msgid "&Paste"
+msgstr "Вс&тавити"
+
+#: xBlock/dialog.py:73 xBlock/dialog.py:136
+msgid "&Delete"
+msgstr "В&идалити"
+
+#: xBlock/dialog.py:74 xBlock/dialog.py:135
+msgid "Move to Category"
+msgstr "Перемістити до категорії"
+
+#: xBlock/dialog.py:75
+msgid "New &Category"
+msgstr "&Нова категорія"
+
+#: xBlock/dialog.py:76
+msgid "&Cancel"
+msgstr "&Скасувати"
+
+#: xBlock/dialog.py:121
+msgid "&New Category"
+msgstr "&Нова категорія"
+
+#: xBlock/dialog.py:122
+msgid "&Edit Category"
+msgstr "&Змінити категорію"
+
+#: xBlock/dialog.py:123
+msgid "&Remove Category"
+msgstr "В&идалити категорію"
+
+#: xBlock/dialog.py:132
+msgid "&Pin/Unpin"
+msgstr "&Закріпити/Відкріпити"
+
+#: xBlock/dialog.py:133
+msgid "Move &Up"
+msgstr "Перемістити в&гору"
+
+#: xBlock/dialog.py:134
+msgid "Move &Down"
+msgstr "Перемістити в&низ"
+
+#: xBlock/dialog.py:276
+msgid "Enter category name:"
+msgstr "Введіть назву категорії:"
+
+#: xBlock/dialog.py:276
+msgid "New Category"
+msgstr "Нова категорія"
+
+#: xBlock/dialog.py:280 xBlock/dialog.py:298
+msgid "Category name cannot be empty."
+msgstr "Назва категорії не може бути порожньою."
+
+#: xBlock/dialog.py:280 xBlock/dialog.py:282 xBlock/dialog.py:298
+#: xBlock/dialog.py:302 xBlock/dialog.py:317 xBlock/dialog.py:370
+#: xBlock/dialog.py:376 xBlock/dialog.py:518 xBlock/dialog.py:557
+msgid "Error"
+msgstr "Помилка"
+
+#: xBlock/dialog.py:282 xBlock/dialog.py:302
+msgid "Category already exists."
+msgstr "Категорія вже існує."
+
+#: xBlock/dialog.py:294
+msgid "New name for category:"
+msgstr "Нова назва категорії:"
+
+#: xBlock/dialog.py:294
+msgid "Edit Category"
+msgstr "Редагувати категорію"
+
+#: xBlock/dialog.py:316
+msgid ""
+"Cannot remove category that contains blocks. Move or delete all blocks first."
+msgstr ""
+"Неможливо видалити категорію, що містить блоки. Спочатку перемістіть або "
+"видаліть усі блоки."
+
+#: xBlock/dialog.py:319
+#, python-brace-format
+msgid "Delete category '{0}'?"
+msgstr "Видалити категорію \"{0}\"?"
+
+#: xBlock/dialog.py:320 xBlock/dialog.py:425
+msgid "Confirm deletion"
+msgstr "Підтвердження видалення"
+
+#: xBlock/dialog.py:370
+msgid "Please enter a block name."
+msgstr "Будь ласка, введіть назву блоку."
+
+#: xBlock/dialog.py:375
+msgid "A block with this name already exists in this category."
+msgstr "Блок із такою назвою вже існує в цій категорії."
+
+#: xBlock/dialog.py:397
+msgid "Success"
+msgstr "Успішно"
+
+#: xBlock/dialog.py:411
+msgid "&Save"
+msgstr "&Зберегти"
+
+#: xBlock/dialog.py:424
+#, python-brace-format
+msgid "Delete block '{0}'?"
+msgstr "Видалити блок \"{0}\"?"
+
+#: xBlock/dialog.py:432
+msgid "Block deleted."
+msgstr "Блок видалено."
+
+#: xBlock/dialog.py:441
+msgid "Select destination category:"
+msgstr "Оберіть цільову категорію:"
+
+#: xBlock/dialog.py:442
+msgid "Move Block"
+msgstr "Перемістити блок"
+
+#: xBlock/dialog.py:459
+#, python-brace-format
+msgid "Block moved to {0}."
+msgstr "Блок переміщено до {0}."
+
+#: xBlock/dialog.py:469
+msgid "Pinned"
+msgstr "Закріплено"
+
+#: xBlock/dialog.py:469
 msgid "Unpinned"
 msgstr "Відкріплено"
 
-#: __init__.py:18
-#: __init__.py:32
-#: dialog.py:17
-#: settings.py:9
-msgid "xBlock"
-msgstr "xBlock"
+#: xBlock/dialog.py:483
+msgid "Moved up"
+msgstr "Переміщено вгору"
+
+#: xBlock/dialog.py:499
+msgid "Moved down"
+msgstr "Переміщено вниз"
+
+#: xBlock/dialog.py:517
+msgid "Failed to copy to clipboard. Please try again."
+msgstr "Не вдалося скопіювати в буфер обміну. Спробуйте ще раз."
+
+#: xBlock/dialog.py:556
+msgid "Failed to paste. Please use Ctrl+V manually."
+msgstr "Не вдалося вставити. Будь ласка, скористайтеся Ctrl+V вручну."
+
+#: xBlock/dialog.py:564
+msgid "Unpin"
+msgstr "Відкріпити"
+
+#: xBlock/dialog.py:564
+msgid "Pin"
+msgstr "Закріпити"
+
+#: xBlock/settings.py:14
+msgid "&Shortcut to open xBlock:"
+msgstr "&Гарячі клавіші для xBlock:"
